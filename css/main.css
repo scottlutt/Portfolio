@@ -12,9 +12,10 @@
    ========================================================================== */
 
 html {
-  color: #222;
   font-size: 1em;
   line-height: 1.4;
+  max-width: 2000px;
+  margin: auto;
 }
 
 /*
@@ -97,6 +98,375 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+@font-face {
+  font-family: "Circular Std";
+  src: url("../fonts/CircularStd-Book.otf");
+}
+@font-face {
+  font-family: "Circular Std";
+  src: url("../fonts/CircularStd-Bold.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Circular Std";
+  src: url("../fonts/CircularStd-BookItalic.ttf");
+  font-style: italic;
+}
+@font-face {
+  font-family: "Circular Std";
+  src: url("../fonts/CircularStd-BoldItalic.ttf");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Circular Std";
+  src: url("../fonts/CircularStd-BoldItalic.ttf");
+  font-weight: bold;
+  font-style: italic;
+}
+
+h1{
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 4.5rem;
+  line-height: 72px;
+  color: #000000;
+}
+
+h2{
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 40px;
+  color: #000000;
+}
+
+h3{
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+  color: #000000;
+}
+
+h4{
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+}
+
+h5{
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+h6{
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #BDBDBD;
+}
+
+p{
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+}
+
+ul {
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  list-style-type: none;
+}
+
+ul li:before {
+  content: '\2014';
+  position: absolute;
+  margin-left: -30px;
+}
+
+a{
+  color: #000000;
+}
+
+a:hover{
+  text-decoration: none;
+  cursor: crosshair;
+}
+
+.project{
+  margin-bottom: 250px;
+}
+
+.project-content-img{
+  width: 100%;
+  max-width: 900px;
+  margin-bottom: 30px;
+}
+
+.project-section{
+  margin-bottom: 80px;
+}
+
+.project-img img{
+  width: 100%;
+  position: relative;
+  transform: translateZ(20px);
+}
+
+.grain::before{
+  content: ' ';
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  right: 50px;
+  bottom: 50px;
+  border-radius: 20px;
+  background: #009DE0;
+}
+
+.project-img{
+  position: relative;
+  display: inline-block;
+  transform-style: preserve-3d;
+}
+
+.zeal::before{
+  content: ' ';
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  right: 50px;
+  bottom: 50px;
+  border-radius: 20px;
+  background: #5FC1AB;
+}
+
+.dutch-design::before{
+  content: ' ';
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  right: 50px;
+  bottom: 50px;
+  border-radius: 20px;
+  background: #000000;
+}
+
+.robinhood::before{
+  content: ' ';
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  right: 50px;
+  bottom: 50px;
+  border-radius: 20px;
+  background: #E4F9F3;
+}
+
+
+
+.content{
+  width: 80%;
+}
+
+.h-center{
+  text-align: center;
+}
+
+.main-landing{
+  height:90vh;
+}
+
+nav{
+  padding: 40px;
+}
+
+.back-arrow{
+  transform: rotate(90deg) translateY(-20px);
+}
+
+.info-item{
+  margin: 0 5% 0 5%;
+}
+
+.header{
+  margin-top: 150px;
+  margin-left: 0;
+}
+
+.heading{
+  margin-left: 20px;
+}
+
+.project-content{
+  max-width: 800px;
+}
+
+.project-copy{
+  margin-top: 50px;
+}
+
+.header img{
+  max-width: 120px;
+  max-height:120px;
+}
+
+@media (max-width: 1000px) {
+  .project-content{
+    max-width: 600px;
+  }
+
+  .grain::before {
+    content: ' ';
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 10px;
+    background: #009DE0;
+  }
+
+  .zeal::before {
+    content: ' ';
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 10px;
+    background: #5FC1AB;
+  }
+
+  .dutch-design::before {
+    content: ' ';
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 10px;
+    background: #000000;
+  }
+
+  .robinhood::before {
+    content: ' ';
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 10px;
+    background: #E4F9F3;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .main-landing {
+    height: 60vh;
+    margin-top:50px;
+  }
+  .rellax{
+   transform: translate3d(0px, 0px, 0px) !important;
+  }
+
+  .preview-text{
+    text-align: left !important;
+  }
+
+  .main-landing-outer{
+    margin-bottom: 50px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    line-height: 2.8rem;
+  }
+
+  .info {
+    display: none;
+  }
+
+  .content {
+    width: 90%;
+  }
+
+
+  nav {
+    padding: 20px;
+    background-color: #FFFFFF;
+  }
+}
+
+
+@media (min-width: 768px){
+  .right-info {
+    margin-right: 20px;
+    right: .67rem;
+    padding-top: env(safe-area-inset-right);
+    transform: rotate(90deg);
+    transform-origin: top right;
+    position: fixed;
+    height: 1rem;
+    bottom: -1rem;
+    width: 100vh;
+    text-align: center;
+  }
+  .left-info{
+    margin-left: 20px;
+    left: .67rem;
+    padding-top: env(safe-area-inset-left);
+    transform: rotate(-90deg);
+    transform-origin: top left;
+    position: fixed;
+    height: 1rem;
+    bottom: -1rem;
+    width: 100vh;font-size: .5rem;
+    text-align: center;
+  }
+  .project-content-img{
+    width: 105%;
+    max-width: 900px;
+    margin-bottom: 30px;
+    transform: translateX(-2%);
+  }
+  .mobile-info{
+    display: none;
+  }
+}
+
+
+
+
+
+
+
 
 /* ==========================================================================
    Helper classes
