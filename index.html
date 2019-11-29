@@ -3,18 +3,18 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Scott Luttmann | Product Designer</title>
+  <title>Scott Luttmann</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="apple-touch-icon" href="/icon.png">
+  <meta property="og:image" content="/tile-wide.png"/>
   <!-- Place favicon.ico in the root directory -->
 
-  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="/css/normalize.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="/css/main.css">
 
 
 
@@ -26,40 +26,39 @@
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
 <![endif]-->
 
-<nav class="fixed-top">
-  <div class="d-flex justify-content-between">
-    <a href="/">
-      <h5>
-        Scott Luttmann
-      </h5>
-    </a>
-    <a href="about/">
-      <h5>
-        About
-      </h5>
-    </a>
-  </div>
-  <div class="right-info row justify-content-center info">
-    <a href="mailto:scottlutt8@gmail.com" target="_blank">
-      <h5>scottlutt8@gmail.com</h5>
-    </a>
-  </div>
-  <div class="left-info row justify-content-center info">
-    <a class="col-1 info-item" href="https://medium.com/@scottluttmann" target="_blank">
-      <h5>Medium</h5>
-    </a>
-    <a class="col-1 info-item" href="https://www.linkedin.com/in/scottluttmann/" target="_blank">
-      <h5>LinkedIn</h5>
-    </a>
-    <a class="col-1 info-item" href="../doc/Scott_Luttmann_Resume.pdf" target="_blank">
-      <h5>Resume</h5>
-    </a>
-    <a class="back-arrow col-1" href="../">
-    </a>
-  </div>
-</nav>
-
-<section class="container content">
+<div class="container content" id="main">
+  <nav class="fixed-top">
+    <div class="d-flex justify-content-between">
+      <a href="/">
+        <h5>
+          Scott Luttmann
+        </h5>
+      </a>
+      <a href="about/">
+        <h5>
+          About
+        </h5>
+      </a>
+    </div>
+    <div class="right-info row justify-content-center info">
+      <a href="mailto:scottlutt8@gmail.com" target="_blank">
+        <h5>scottlutt8@gmail.com</h5>
+      </a>
+    </div>
+    <div class="left-info row justify-content-center info">
+      <a class="col-1 info-item" href="https://medium.com/@scottluttmann" target="_blank">
+        <h5>Medium</h5>
+      </a>
+      <a class="col-1 info-item" href="https://www.linkedin.com/in/scottluttmann/" target="_blank">
+        <h5>LinkedIn</h5>
+      </a>
+      <a class="col-1 info-item" href="../doc/Scott_Luttmann_Resume.pdf" target="_blank">
+        <h5>Resume</h5>
+      </a>
+      <a class="back-arrow col-1" href="../">
+      </a>
+    </div>
+  </nav>
   <div class="row h-100 justify-content-center align-items-center main-landing-outer">
     <div class="col-12 h-center main-landing d-flex align-items-center">
       <h1> Connecting people to opportunity through product experiences.</h1>
@@ -89,12 +88,12 @@
     </div>
     <div class="col-md-1"></div>
     <a class="col-md-8 project-img grain" data-tilt href="grain">
-      <img src="img/grainpreview.png">
+      <img src="/img/grainpreview.png">
     </a>
   </div>
   <div class="row project">
     <a class="col-md-8 project-img zeal" data-tilt href="zeal">
-      <img src="img/zealpreview.png">
+      <img src="/img/zealpreview.png">
     </a>
     <div class="col-md-1"></div>
     <div class="d-flex col-md-3">
@@ -113,12 +112,12 @@
     </div>
     <div class="col-md-1"></div>
     <a class="col-md-8 project-img dutch-design" data-tilt href="https://blog.prototypr.io/how-tech-design-can-learn-from-dutch-design-3cd92051ee6d?source=friends_link&sk=778b4a3e801698b3d0e603e3effcfead" target="_blank">
-      <img src="img/dutchdesign.png">
+      <img src="/img/dutchdesign.png">
     </a>
   </div>
   <div class="row project">
     <a class="col-md-8 project-img robinhood" data-tilt href="https://blog.prototypr.io/robinhood-redesign-explore-61a76fe8c782?source=friends_link&sk=a5fb0ebbb63844755ad30d8c09452006" target="_blank">
-      <img src="img/robinhood.png">
+      <img src="/img/robinhood.png">
     </a>
     <div class="col-md-1"></div>
     <div class="d-flex col-md-3">
@@ -130,7 +129,7 @@
   </div>
 
 
-</section>
+</div>
 
 
 
@@ -141,18 +140,20 @@
 
 
 
-<script src="js/vendor/modernizr-3.7.1.min.js"></script>
+<script src="/js/vendor/modernizr-3.7.1.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
-<script src="js/plugins.js"></script>
-<script src="js/rellax.min.js"></script>
-<script src="js/main.js"></script>
-<script src="js/tilt.jquery.js"></script>
+<script>window.jQuery || document.write('<script src="/js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+<script src="/js/plugins.js"></script>
+<script src="/js/rellax.min.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/tilt.jquery.js"></script>
+
+
 
 <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
 <script>
   window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-  ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+  ga('create', 'UA-115748594-1', 'auto'); ga('send', 'pageview')
 </script>
 <script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
