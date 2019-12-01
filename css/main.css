@@ -218,6 +218,15 @@ a:hover{
     cursor: crosshair;
 }
 
+.social-icons{
+    color: #BDBDBD;
+    font-size: 40px;
+    width: 60px;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+
 .project{
     margin-bottom: 250px;
 }
