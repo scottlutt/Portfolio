@@ -227,6 +227,15 @@ a:hover{
     text-decoration: none;
 }
 
+.project a:hover{
+    text-decoration: none;
+    cursor: url("/img/anchorHover.svg"), auto;
+}
+
+.dutch a:hover{
+    cursor: url("/img/anchorHoverWhite.svg"), auto;
+}
+
 .social-icons{
     color: #BDBDBD;
     font-size: 40px;
@@ -437,7 +446,7 @@ nav{
     }
 
     .content {
-        width: 90%;
+        width: 100%;
     }
 
     .project{
