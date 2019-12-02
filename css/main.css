@@ -225,7 +225,6 @@ a{
 
 a:hover{
     text-decoration: none;
-    cursor: crosshair;
 }
 
 .social-icons{
@@ -266,6 +265,8 @@ a:hover{
     bottom: 50px;
     border-radius: 20px;
     background: #009DE0;
+    box-shadow: 0 20px 27px rgba(0, 0, 0, 0.15)
+
 }
 
 .project-img{
@@ -283,6 +284,7 @@ a:hover{
     bottom: 50px;
     border-radius: 20px;
     background: #5FC1AB;
+    box-shadow: 0 20px 27px rgba(0, 0, 0, 0.15)
 }
 
 .dutch-design::before{
@@ -294,6 +296,7 @@ a:hover{
     bottom: 50px;
     border-radius: 20px;
     background: #000000;
+    box-shadow: 0 20px 27px rgba(0, 0, 0, 0.15)
 }
 
 .robinhood::before{
@@ -305,6 +308,7 @@ a:hover{
     bottom: 50px;
     border-radius: 20px;
     background: #E4F9F3;
+    box-shadow: 0 20px 27px rgba(0, 0, 0, 0.05)
 }
 
 .content{
