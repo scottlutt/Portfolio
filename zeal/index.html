@@ -1,0 +1,162 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title>Zeal iOS App & Branding | Scott Luttmann</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="/icon.png">
+    <meta property="og:image" content="/tile-wide.png"/>
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/main.css">
+
+    <script src="https://kit.fontawesome.com/2f219591a1.js" crossorigin="anonymous"></script>
+
+
+    <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+<!--[if IE]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+<![endif]-->
+
+<div class="container project-content" id="main">
+    <nav class="fixed-top">
+        <div class="d-flex justify-content-between">
+            <a href="/">
+                <h5>
+                    Scott Luttmann
+                </h5>
+            </a>
+            <a href="../about">
+                <h5>
+                    About
+                </h5>
+            </a>
+        </div>
+        <div class="right-info row justify-content-center info">
+            <div class="col-1"></div>
+            <a href="mailto:scottlutt8@gmail.com" target="_blank">
+                <h5>scottlutt8@gmail.com</h5>
+            </a>
+        </div>
+        <div class="left-info row justify-content-center info">
+            <a class="col-1 info-item" href="https://medium.com/@scottluttmann" target="_blank">
+                <h5>Medium</h5>
+            </a>
+            <a class="col-1 info-item" href="https://www.linkedin.com/in/scottluttmann/" target="_blank">
+                <h5>LinkedIn</h5>
+            </a>
+            <a class="col-1 info-item" href="/doc/Scott_Luttmann_Resume.pdf" target="_blank">
+                <h5>Resume</h5>
+            </a>
+            <a class="back-arrow col-1" href="../">
+                <img src="../img/arrow.svg">
+            </a>
+        </div>
+    </nav>
+
+    <div class="header">
+        <h2 class="d-flex align-items-center">Zeal iOS App & Branding</h2>
+        <h6>Fall 2019</h6>
+    </div>
+    <div class="project-copy justify-content-center">
+        <div class="project-section">
+            <p>
+                Zeal is an LA-based Electric Vehicle (EV) charging company with a mission to help EV charging become effortless, reliable, and economical.
+            </p>
+            <p>
+                Their system works by providing buildings with smart chargers that are connected to the internet, a webapp for building managers, and a driver-facing mobile app. Through these avenues, they help buildings manage and limit their energy consumption in peak hours, saving them money, and maximize charger usage through the ability for drivers to schedule charging sessions.
+            </p>
+            <p>
+                Throughout a year, I designed their webapp, iOS app, and branding to help facilitate growth. The main theme of the design process was centered around location and time, since they play the biggest factors into how people charge their EV’s. We designed for users that are paired with certain buildings (full-level users) and also for those who aren’t paired with a building (base-level).
+            </p>
+            <p>Hypothesis: Charging is equally location and schedule driven for all users.</p>
+            <p><strong>Design Goal: Offer the path of least resistance to location and schedule-based charging for both types of users.</strong></p>
+        </div>
+        <div class="project-section">
+            <h3>Previous Webapp Testing</h3>
+            <p>Originally, we introduced a webapp for drivers to schedule charging sessions and building managers to control their chagers and energy consumption.</p>
+            <img src="/img/zealWebapp.png" class="project-content-img">
+            <p>Admins could view their statistics on energy and driver use, and limit the percentage that they want to blackout, meaning the time that the charger would not be utilized, therefore saving energy for the building.</p>
+            <p>For drivers, the platform was based around scheduling, so their main affordances were 6 tailored sessions that they could choose, based on availablity and their previous habits, and the ability to view the full calendar and book open spots.</p>
+            <p>Being an early proof of concept to test, we learned two major things from this rollout:</p>
+            <ol>
+                <li>The platform matters: users were scheduling on their phones, which lead to tougher interaction with the webapp</li>
+                <li>People never utilized the pre-tailored times, they always went straight to the calendar</li>
+            </ol>
+            <p>Moving forward with the design process, we knew that we had to switch to a mobile app, and incorporate a focus on custom scheduling.</p>
+        </div>
+        <div class="project-section">
+            <h3>Rebrand</h3>
+            <p>Before designing the app, we needed to rebrand to provide more credibility to the platform both to users and investors. Thus, we switched the name from EVE Energy Ventures to Zeal. Alongside this, we wanted to portray values of <strong>uplifting, futuristic, light, and intuitive.</strong></p>
+            <img src="/img/zealRebrand.png" class="project-content-img">
+            <p>I helped to redesign the logo and choose colors and fonts. We moved away from gradient-based styling to flat colors in order to stand out from competitors, and moved forward with the decision to switch from a dark color scheme, as seen in the webapp, to light for the mobile app.</p>
+        </div>
+        <div class="project-section">
+            <h3>Charging States</h3>
+            <p>For the full-level user that parks their car in a Zeal-partnered building, the app would need to provide value while they are charging and while they aren’t as well. Analyzing the flow of how someone goes about charging their EV, I identified 4 different states that a user could be in.</p>
+            <img src="/img/zealStates.png" class="project-content-img">
+            <p>I designed different modals for when the user is in each of the four states along the charging lifecycle. This way, the user could get to certain actions that are necessary for each state easily. For example, the ability to cancel before their session starts, and seeing their cost and CO2 impact after they’re done charging</p>
+        </div>
+        <div class="project-section">
+            <h3>Working Around Schedules</h3>
+            <p>When testing with the webapp, we found another painpoint of a user was that if charging spots were empty, the process to park there and be able to charge became complicated. So, we designed the ability to ‘Charge Now’ in addition to ‘Charge Later’.</p>
+            <img src="/img/chargeNow.png" class="project-content-img">
+            <p>This helps to solve for location-based charging. For example, if someone shows up to their office in the morning and there are open chargers, they should be able to park there and charge if there is open time. The app knows that they’re near a Zeal charger, so it displays a modal to offer them the ability to charge now, depending on availablity. In this sense, the app is getting the driver to charging in a low-friction way.</p>
+        </div>
+        <div class="project-section">
+            <h3>Sessions/Charge Later</h3>
+            <p>Our hypothesis was that charging is also time-driven. In which, the user should get to scheduling a charging session in least-friction way possible. As we found that scheduling needs to be front and center in the platform, we created a dedicated tab for sessions, in which drivers can see times when the chargers are taken and can schedule a charging session when their schedule permits.</p>
+            <img src="/img/zealSessions.png" class="project-content-img">
+            <p>This is crucial for offices, where drivers need to work around their work schedules, meetings, and other activities. To tackle the problem of drivers going to the lot and finding someone parked in the spot during their session, the app provides notifications and text messages. If this fails, the app also allows them to report blocked spots, saving time for the managers and drivers in the instance of issues.</p>
+        </div>
+        <div class="project-section">
+            <h3>Designing for Base-Level User</h3>
+            <p>To give the app the opportunity to be utilized by those that aren’t in a Zeal-partnered building, we designed the base-level of the app to show public chargers. By pulling an API for data of all public chargers in the US, any EV driver could download the app and still get value similar to competitors.</p>
+            <img src="/img/zealBaseUser.png" class="project-content-img">
+            <p>This way, base-level users who either ran into the app randomly, got referred from someone, or other ways could still utilize the platform, helping with brand publicity.</p>
+        </div>
+        <div class="project-section">
+            <h3>Product-Scope</h3>
+            <p>Given that scheduling charging sessions is more of an abstract concept in todays time, designing the product to offer affordances around different charging states and actions was crucial.</p>
+            <p>We sucessfully designed based on what we learned from the webapp, and implemented changes to support the hypothesis and design goals set out in the beginning, therefore helping as the whole Zeal platform scales to more building partnerships.</p>
+        </div>
+
+</div>
+
+
+
+<!-- Add your site or application content here -->
+
+
+
+
+
+
+<script src="/js/vendor/modernizr-3.7.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="/js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+<script src="/js/plugins.js"></script>
+<script src="/js/rellax.min.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/tilt.jquery.js"></script>
+
+
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-115748594-1', 'auto'); ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>

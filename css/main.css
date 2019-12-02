@@ -203,6 +203,16 @@ ul {
     list-style-type: none;
 }
 
+ol{
+    font-family: "Circular Std";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+}
+
+
 ul li:before {
     content: '\2014';
     position: absolute;
