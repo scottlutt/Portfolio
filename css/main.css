@@ -449,6 +449,10 @@ nav{
         width: 100%;
     }
 
+    .mobile-button{
+        margin-top: 15px;
+    }
+
     .project{
         margin-bottom:60px;
     }
@@ -513,6 +517,11 @@ nav{
     .mobile{
         display: none;
     }
+
+    .mobile-button{
+        display:none;
+    }
+
 }
 
 
