@@ -341,6 +341,10 @@ nav{
     transform: rotate(90deg) translateY(-20px);
 }
 
+.back-arrow:hover{
+    cursor: pointer;
+}
+
 .info-item{
     margin: 0 5% 0 5%;
 }
@@ -467,6 +471,7 @@ nav{
     nav {
         padding: 20px;
         background-color: #FFFFFF;
+        transform: translateZ(20px);
     }
     .project-img{
         margin-bottom: 20px;
